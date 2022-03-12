@@ -1,0 +1,80 @@
+*{ box-sizing: border-box;
+    margin:0;
+    padding:0;
+}
+
+.container-fluid {
+    background-color: cornflowerblue;
+    width: 30%;
+    height: auto;
+    margin: 10px auto; 
+    padding: 10px 20px ; /* panw katw 10, aristera de3ia 20*/
+}
+
+.container{
+    background-color: white;
+    width:80% ;/* se sxesi me to e3wtriko div*/
+    margin:0 auto;
+    border-radius: 5px; /*kanei tis gonies pio strogiles*/
+    text-align: center; /* etsi wste ta periexomena na einai stixismena sto kedro. 
+    To text align klironomite se div*/
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row{
+    padding-top: 15px;
+}
+
+.text-grey {
+    color:rgb(211, 210, 210)
+}
+
+.email, .password {
+    width: 90%;
+    height: 40px;
+    background-color: #faf4f4;
+    border-radius: 5px;
+    border-width: 0;
+    padding-left: 10px;
+}
+
+.submit-button {
+    width: 90%;
+    height: 40px;
+    border-radius: 5px;
+    border-width: 0;
+    background-color: cornflowerblue;
+    color: white;
+    text-align: center;
+}
+
+.text-white {
+    color: white;
+}
+
+.halign {
+    text-align: center;
+}
+
+.paddingbotton-50 {
+    padding-bottom: 50px;
+}
+
+.paddingbotton-20{
+    padding-bottom: 20px;
+}
+
+.text-small {
+    font-size: 0.9rem;
+}
+
+/*Validation rules*/
+
+.email:valid + span::before,
+.password:valid + span::before {
+    content: "\2713";
+    color: green;
+    font-size: 20px;
+}
+
+
