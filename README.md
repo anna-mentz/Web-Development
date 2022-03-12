@@ -1,2 +1,2 @@
 # webdev-aueb
-Web Development Projects for AUEB course
+Web Development Projects - AUEB course
